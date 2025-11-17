@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voice Dub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f3f3;
+            text-align: center;
+            padding: 40px;
+        }
+        .box {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, button {
+            padding: 10px;
+            margin-top: 15px;
+            width: 100%;
+            border-radius: 8px;
+        }
+        button {
+            background: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI Voice Dub</h1>
+    <p>ترجمة ودبلجة الصوت لأي لغة باستخدام الذكاء الاصطناعي</p>
+
+    <div class="box">
+        <h3>ارفع ملف صوت أو فيديو:</h3>
+        <input type="file" id="audioInput">
+
+        <h3>اختر اللغة:</h3>
+        <select id="languageSelect">
+            <option value="ar">Arabic</option>
+            <option value="en">English</option>
+            <option value="fr">French</option>
+        </select>
+
+        <button onclick="process()">ابدأ الدبلجة</button>
+    </div>
+
+    <script>
+        function process() {
+            alert("سيتم إضافة الذكاء الاصطناعي لاحقًا...");
+        }
+    </script>
+</body>
+</html>
